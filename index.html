@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css">
+        <link rel="stylesheet" href="css/animation.css">
+        <link rel="stylesheet" MEDIA="(max-width: 875px)"
+            href="css/responsive.css">
+        <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+        <title>Instagram</title>
+    </head>
+    <body>
+        <div class="container">
+            <div class="image">
+                <div class="changingImage">
+                    <img src="/images/random/0.jpg"
+                        alt="">
+                    <img src="/images/random/1.jpg"
+                        alt="">
+                    <img src="/images/random/2.jpg"
+                        alt="">
+                    <img src="/images/random/3.jpg"
+                        alt="">
+                    <img src="/images/random/4.jpg"
+                        alt="">
+                    <img src="/images/random/5.jpg"
+                        alt="">
+                </div>
+            </div>
+            <div class="login_container">
+                <div class="logo">Instagram</div>
+
+                <form action="">
+                    <div class="form-control">
+                        <!-- <label for="username"> -->
+                        <span id="user_placeholder">Phone number, username, or
+                            email</span>
+                        <input type="text" name="" id="username"
+                            onKeyup="checkinput()">
+                        <!-- </label> -->
+                    </div>
+                    <div class="form-control">
+                        <!-- <label for="password"> -->
+                        <span id="pass_placeholder">Password</span>
+                        <input type="password" name=""
+                            onkeyup="checkinput()" id="password"
+                            >
+                        <a href="#" id="hideShow" onclick="hideShow()">Show</a>
+                        <!-- </label>  -->
+                    </div>
+                    <div class="form-control">
+                        <button type="submit" id="submit" class="btn">Log In</button>
+                    </div>
+                </form>
+
+                <h5><span>OR</span></h5>
+                <div class="fb_login">
+                    <a href="#"><i class="fab fa-facebook-square"></i> Log in
+                        with Facebook</a>
+                </div>
+                <div class="fb_forgot">
+                    <a href="#">Forgot password?</a>
+                </div>
+            </div>
+            <div class="signup_link">
+                <span>Don't have an account?</span> <a href="">Sign up</a>
+            </div>
+            <div class="mobile_app">
+                <p>Get the app.</p>
+                <img src="/images/apple.png" alt="">
+                <img src="/images/android.png" alt="" srcset="">
+            </div>
+
+            <footer id="footer">
+                <a href="#">ABOUT</a>
+                <a href="#">HELP</a>
+                <a href="#">PRESS</a>
+                <a href="#">API</a>
+                <a href="#">JOBS</a>
+                <a href="#">PRIVACY</a>
+                <a href="#">TERMS</a>
+                <a href="#">LOCATION</a>
+                <a href="#">TOP ACCOUNTS</a>
+                <a href="#">HASHTAGS</a>
+                <a href="#">LANGUAGE</a>
+
+                <span>&copy 2020 INSTAGRAM FROM CEED MEDIA</span>
+
+            </footer>
+        </div>
+
+        <script src="script.js"></script>
+    </body>
+</html>
